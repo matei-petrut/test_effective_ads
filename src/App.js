@@ -1,9 +1,11 @@
 import React from 'react';
+import Histogram from "./Histogram";
 
 function App() {
   return (
     <div>
-      <h1>Merge ok</h1>
+      <h1 style={{textAlign: "center"}}>Posts in 2019</h1>
+      <Histogram />
     </div>
   );
 }
